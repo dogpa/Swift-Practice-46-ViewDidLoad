@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D42406F26B002D1004A3963 /* pikasong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D42406E26B002D1004A3963 /* pikasong.mp3 */; };
 		5DC6CC3326AFE50C00ACF078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3226AFE50C00ACF078 /* AppDelegate.swift */; };
 		5DC6CC3526AFE50C00ACF078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3426AFE50C00ACF078 /* SceneDelegate.swift */; };
 		5DC6CC3726AFE50C00ACF078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3626AFE50C00ACF078 /* ViewController.swift */; };
 		5DC6CC3A26AFE50C00ACF078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3826AFE50C00ACF078 /* Main.storyboard */; };
 		5DC6CC3C26AFE51100ACF078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3B26AFE51100ACF078 /* Assets.xcassets */; };
 		5DC6CC3F26AFE51100ACF078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC6CC3D26AFE51100ACF078 /* LaunchScreen.storyboard */; };
+		5DC6CC4726AFE77B00ACF078 /* secondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CC4626AFE77B00ACF078 /* secondPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D42406E26B002D1004A3963 /* pikasong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pikasong.mp3; sourceTree = "<group>"; };
 		5DC6CC2F26AFE50C00ACF078 /* Swift Practice # 46 ViewDidLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 46 ViewDidLoad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC6CC3226AFE50C00ACF078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DC6CC3426AFE50C00ACF078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5DC6CC3B26AFE51100ACF078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC6CC3E26AFE51100ACF078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DC6CC4026AFE51100ACF078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC6CC4626AFE77B00ACF078 /* secondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		5DC6CC3126AFE50C00ACF078 /* Swift Practice # 46 ViewDidLoad */ = {
 			isa = PBXGroup;
 			children = (
+				5D42406E26B002D1004A3963 /* pikasong.mp3 */,
 				5DC6CC3226AFE50C00ACF078 /* AppDelegate.swift */,
 				5DC6CC3426AFE50C00ACF078 /* SceneDelegate.swift */,
 				5DC6CC3626AFE50C00ACF078 /* ViewController.swift */,
 				5DC6CC3826AFE50C00ACF078 /* Main.storyboard */,
+				5DC6CC4626AFE77B00ACF078 /* secondPageViewController.swift */,
 				5DC6CC3B26AFE51100ACF078 /* Assets.xcassets */,
 				5DC6CC3D26AFE51100ACF078 /* LaunchScreen.storyboard */,
 				5DC6CC4026AFE51100ACF078 /* Info.plist */,
@@ -126,6 +132,7 @@
 			files = (
 				5DC6CC3F26AFE51100ACF078 /* LaunchScreen.storyboard in Resources */,
 				5DC6CC3C26AFE51100ACF078 /* Assets.xcassets in Resources */,
+				5D42406F26B002D1004A3963 /* pikasong.mp3 in Resources */,
 				5DC6CC3A26AFE50C00ACF078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC6CC3726AFE50C00ACF078 /* ViewController.swift in Sources */,
+				5DC6CC4726AFE77B00ACF078 /* secondPageViewController.swift in Sources */,
 				5DC6CC3326AFE50C00ACF078 /* AppDelegate.swift in Sources */,
 				5DC6CC3526AFE50C00ACF078 /* SceneDelegate.swift in Sources */,
 			);
